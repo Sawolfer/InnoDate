@@ -1,16 +1,18 @@
 .button{
     font-family: 'pixel';
+    /* display: flex; */
     background: #ffffff;
     width: 80%;
-    height: 40%;
+    /* height: 40%; */
     /* border-radius: 20px; */
     color: #000000;
     text-align: center;
+    /* font-size: 1vmin; */
     margin: 1%;
 }
 
 .all{
-    
+    display: block;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -20,11 +22,11 @@
 }
 
 .button-list{
-    
+    display: block;
     width: 30%;
     height: 30%;
     position: absolute;
-    top: 0;
+    top: 50%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -34,18 +36,27 @@
 }
 
 .header{
+    display: flexbox;
     font-family: 'pixel';
+
+    font-size: xx-large;
     width: 30%;
     height: 10%;
-    position:absolute;
+    position: relative;
     top: 25%;
     right: 0;
     bottom: 0;
     left: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
+
     text-align: center;
 
+}
+
+.label{
+    display: flexbox;
 }
 
 
